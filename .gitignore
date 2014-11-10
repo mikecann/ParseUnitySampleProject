@@ -8,3 +8,10 @@ ParseUnitySampleProject/Temp/*
 
 */obj/*
 */bin/*
+
+*.pidb
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.suo
