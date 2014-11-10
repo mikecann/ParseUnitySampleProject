@@ -6,3 +6,5 @@
 ParseUnitySampleProject/Library/*
 ParseUnitySampleProject/Temp/*
 
+*/obj/*
+*/bin/*

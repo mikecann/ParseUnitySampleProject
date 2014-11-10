@@ -1,0 +1,3 @@
+[submodule "ParseUnitySampleProject/Assets/Libraries/UnityParseHelpers"]
+	path = ParseUnitySampleProject/Assets/Libraries/UnityParseHelpers
+	url = https://github.com/mikecann/Unity-Parse-Helpers
