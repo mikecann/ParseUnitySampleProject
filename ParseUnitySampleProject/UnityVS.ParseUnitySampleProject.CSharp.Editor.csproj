@@ -58,6 +58,9 @@
     <Reference Include="Parse.Unity">
       <HintPath>Assets\Libraries\Parse\Parse.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="ParseUnitySampleCommon">
+      <HintPath>Assets\Libraries\ParseUnitySampleProjectCommon\ParseUnitySampleCommon.dll</HintPath>
+    </Reference>
     <Reference Include="NSubstitute">
       <HintPath>Assets\Libraries\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll</HintPath>
     </Reference>
@@ -93,6 +96,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Editors\ViewStateControllerEditor.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tests\UnityExtensionsTests.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tests\UnityUtilsTests.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tools\MissingScriptResolver.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tools\ResourcesEnumerator.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tools\ScriptableObjectUtility.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Editor\Tools\uGUITools.cs" />
     <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Editor\Tests\ParseExtensionsTests.cs" />
     <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Editor\Tests\TestModels.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\Assertions\Editor\AssertionComponentEditor.cs" />

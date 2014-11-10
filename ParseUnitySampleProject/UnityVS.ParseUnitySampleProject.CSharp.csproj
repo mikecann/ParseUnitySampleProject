@@ -7,14 +7,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7A5B1B7B-854F-6987-7B87-1C65CBE79441}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -52,10 +54,19 @@
     <Reference Include="Parse.Unity">
       <HintPath>Assets\Libraries\Parse\Parse.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="ParseUnitySampleCommon">
+      <HintPath>Assets\Libraries\ParseUnitySampleProjectCommon\ParseUnitySampleCommon.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Libraries\Unity-Helpers\Scripts\UnityExtensions.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Scripts\UnityUtils.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Scripts\View\PageIndicator.cs" />
+    <Compile Include="Assets\Libraries\Unity-Helpers\Scripts\View\ViewStateController.cs" />
+    <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Scripts\Loom.cs" />
     <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Scripts\ParseExtensions.cs" />
     <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Scripts\ParseFieldTypeAttribute.cs" />
+    <Compile Include="Assets\Libraries\Unity-Parse-Helpers\Scripts\TaskExtensions.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\Assertions\AssertionComponent.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\Assertions\AssertionException.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\Assertions\Assertions.cs" />
@@ -92,10 +103,18 @@
     <Compile Include="Assets\Libraries\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunnerCallbackList.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunnerConfigurator.cs" />
     <Compile Include="Assets\Libraries\UnityTestTools\IntegrationTestsFramework\TestingAssets\CallTesting.cs" />
+    <Compile Include="Assets\Scripts\Menus\ErrorPopup.cs" />
+    <Compile Include="Assets\Scripts\Menus\LoggedInState.cs" />
+    <Compile Include="Assets\Scripts\Menus\SignupState.cs" />
+    <Compile Include="Assets\Scripts\Menus\LoginState.cs" />
+    <Compile Include="Assets\Scripts\Menus\MenusController.cs" />
+    <Compile Include="Assets\Scripts\Services\UserService.cs" />
     <None Include="Assets\Libraries\Parse\Parse.Unity.xml" />
     <None Include="Assets\Libraries\UnityTestTools\changelog.txt" />
     <None Include="Assets\Libraries\UnityTestTools\LICENSE.txt" />
     <None Include="Assets\Libraries\Parse\Parse.Unity.dll" />
+    <None Include="Assets\Libraries\ParseUnitySampleProjectCommon\ParseUnitySampleCommon.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

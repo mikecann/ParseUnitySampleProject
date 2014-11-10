@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Parse Unity Sample": {
+            "applicationId": "8NPGAbZDxZkQ4yn1DELxENrbA1907dpIKF1rytEJ", 
+            "masterKey": "CRTdLHCOXDWfrvOWCwafBif0ia0VZjHOo4JzyueI"
+        }, 
+        "_default": {
+            "link": "Parse Unity Sample"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.1"
+    }
+}
