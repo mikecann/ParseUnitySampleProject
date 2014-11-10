@@ -3,7 +3,7 @@ exports.x = 2;
 
 Parse.Cloud.beforeSave("_User", function (request, response) {
     // Must have a player name
-    if (request.object.get("playerName") == null)
+    if (request.object.get("playerName") == null || request.object.get("playerName") == "")
         return response.error("Must supply a player name when creating a new user");
 
     // Email and username must equal

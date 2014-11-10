@@ -46,6 +46,7 @@ namespace Assets.Scripts.Menus
         private void OnError(Exception e)
         {
             isLoading = false;
+            Debug.LogException(e);
             menus.ErrorPopup.Open("Error signing up!");
         }
 
