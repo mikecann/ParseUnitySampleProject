@@ -1,4 +1,4 @@
-﻿using Assets.Libraries.Unity_Parse_Helpers.Scripts;
+﻿using UnityParseHelpers;
 using Parse;
 using ParseUnitySampleCommon;
 using System;
