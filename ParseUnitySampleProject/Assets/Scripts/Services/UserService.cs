@@ -24,7 +24,6 @@ namespace Assets.Scripts.Services
 
             return ParseUser.LogInAsync(email, password)
                 .OnMainThread()
-                .DebugLog()
                 .Then(t => Task.FromResult((GameUser)t.Result));
         }
 
