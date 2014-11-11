@@ -7,6 +7,8 @@ A sample / starter project to help people with getting started when using Parse.
 " target="_blank"><img src="http://img.youtube.com/vi/nJBf-PccP3E/0.jpg" 
 alt="Video Demoing the App width="240" height="180" border="10" /></a>
 
-More information can be found on my blog:
+More information can be found in a series of blog posts I wrote on the subject:
 
-http://www.mikecann.co.uk/?p=5435
+[Part 1 – Intro and App Structure](http://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+[Part 2 – Services, Helpers and Looming](http://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
+[Part 3 – Tests, Typescript and Common Code](http://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
